@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .nav {
+            background-color: #ffffff;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background-color: rgb(0, 0, 0);
+        }
+        .search {
+            margin-left: auto;
+        }
+        .search input {
+            padding: 5px;
+        }
+        @font-face {
+                font-family: myfont;
+                src: url(https://fonts.google.com/share?selection.family=Cormorant:ital,wght@0,300..700;1,300..700);
+            }
+        .header {
+            font-family: myfont;
+            background-color: #ffffff;
+            color: black;
+            padding: 15px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+        }
+        .logo {
+            text-align: center;
+            
+        }
+        .news-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="kantipur.jpg" alt="News Company Logo" width="200">
+        </div>
+    <div class="header">KANTIPUR</div>
+    <div class="nav">
+        <a href="#">Live</a>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Search</a>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+        <div class="news-section">
+            <h2>Trump, Zelensky clash in Oval Office; Netizens criticise Trump.</h2>
+            <img src="oval.jpg" alt="Trump Zelensky" width="100%">
+            <p> Ukrainian President Volodymyr Zelensky traveled to Washington on Friday, Feb.28, where he and U.S. President Donald Trump were scheduled to sign a minerals deal. However, the trip took a dramatic turn as the two sides were embroiled in a rare shouting match at the White House, ultimately leaving the minerals deal unsigned.</p>
+        </div>
+        <div class="news-section">
+            <h2>KIIT Campus Tense After Nepal Student Suicide, Many Nepali Students Forced To Leave</h2>
+            <img src="kiit.webp" alt="KIIT Death" width="100%">
+            <p>Tension erupted on the Kalinga Institute of Industrial Technology (KIIT) campus in Odisha yesterday after a third-year student from Nepal was found dead in her hostel room. BTech student Prakriti Lamsal died by suicide, authorities said. Dozens of Nepali students assembled last night and staged a protest, after which they claimed they were evicted from the campus..</p>
+        </div>
+        <div class="news-section">
+            <h2>Government hikes protesting resident doctor's monthly stipend to Rs48,737</h2>
+            <img src="doctor.jpeg" alt="Discussion at PM's Office" width="100%">
+            <p>The Medical Education Commission has finally agreed to fix stipends of the post graduate students from private medical colleges on par with that of government-owned colleges.
+
+            <br><br>Prime Minister KP Sharma Oli, as the chair of the commission, called an emergency meeting of the commission to decide on stipends after resident doctors started halting non-emergency services. Currently, postgraduate students (MD/MS) from government-owned institutions get Rs48,737 per month, which is equivalent to the salary of a gazetted officer. However, private medical colleges have been paying the same level of students around Rs20,000.</p>
+        </div>
+    </div>
+</body>
+</html>
